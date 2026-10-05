@@ -41,7 +41,7 @@
   * Design the production workload so that components can be scaled or made highly available where appropriate.
   * The architecture will demonstrate awareness of availability and scalability without introducing unecessary cost or complexity.
 * Governance
-  *Establish a consistent Azure resource naming and tagging standard that supports resource identification, cost tracking, lifecycle management, automation, and future policy enforcement.
+  * Establish a consistent Azure resource naming and tagging standard that supports resource identification, cost tracking, lifecycle management, automation, and future policy enforcement.
 * Infrastructure as Code
   * Resources should ultimately be deployed and managed through Terraform where practical, with manual Azure Portal deployments used primarily for learning, troubleshooting, or resources where Terraform is intentionally not being used.
 ## 5. Azure Region
