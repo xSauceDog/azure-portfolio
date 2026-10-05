@@ -1,28 +1,27 @@
 # Azure Portfolio - Strategy
 ## 1. Project Purpose
-* Plan, implement, and manage a personal Azure tenant that could be scaled up to meet the demands and requirement of an enterprise environment.
-* I'd like this project to follow industry standards and best practices as closely as possible.
+Plan, implement, and manage a personal Azure tenant that could be scaled up to meet the demands and requirement of an enterprise environment, while following industry standards and best practices as closely as possible.
 ## 2. Project Objectives
-###  1. Build a production-style Azure environment
-     * Design and deploy a small but realistic Azure environment that follows Microsoft-recommended cloud architecture and governance practices.
-     * The environment will demonstrate how a production workload can be securely deployed, monitored, and maintained.
+### 1. Build a production-style Azure environment
+  * Design and deploy a small but realistic Azure environment that follows Microsoft-recommended cloud architecture and governance practices.
+  * The environment will demonstrate how a production workload can be securely deployed, monitored, and maintained.
 ###  2. Demonstrate core Azure administrative skills
-     * Build hands-on experience across the major AZ-104 domains, including identity and governance, storage, compute, networking, monitoring, and backup/recovery.
+  * Build hands-on experience across the major AZ-104 domains, including identity and governance, storage, compute, networking, monitoring, and backup/recovery.
 ###  3. Implement secure and structured networking
-     * Design a hub and spoke network architecture with appropriate segmentation, network security controls, private endpoints, private DNS, centralized connectivity, and controlled internet access.
+  * Design a hub and spoke network architecture with appropriate segmentation, network security controls, private endpoints, private DNS, centralized connectivity, and controlled internet access.
 ###  4. Demonstrate both IaaS and PaaS capabilities
-     * Use Azure-managed services where they provide a practical advantage while retaining selected IaaS workloads to demonstrate VM administration and infrastructure management skills.
+  * Use Azure-managed services where they provide a practical advantage while retaining selected IaaS workloads to demonstrate VM administration and infrastructure management skills.
 ###  5. Implement cloud governance and operational standards
-     * Establish consistent resource organization, naming conventions, tagging, RBAC, Azure Policy, cost controls, and resource lifecycle practices.
-     * Governance will be designed so the environment could scale beyond the limitations of the initial single subscription lab.
+  * Establish consistent resource organization, naming conventions, tagging, RBAC, Azure Policy, cost controls, and resource lifecycle practices.
+  * Governance will be designed so the environment could scale beyond the limitations of the initial single subscription lab.
 ###  6. Implement infrastructure as code and automation
-     * Use Terraform, Azure CLI, and PowerShell where appropriate to automate resource deployment and administration.
-     * Infrastructure definitions and operational scripts will be maintained in version control to provide a repeatable and auditable deployment process.
+  * Use Terraform, Azure CLI, and PowerShell where appropriate to automate resource deployment and administration.
+  * Infrastructure definitions and operational scripts will be maintained in version control to provide a repeatable and auditable deployment process.
 ###  7. Develop monitoring, maintenance, and recovery capabilities
-     * Implement Azure Monitor, Log Analytics, alerts, backups, update management, and other operational capabilities necessary to monitor and maintain the environment.
+  * Implement Azure Monitor, Log Analytics, alerts, backups, update management, and other operational capabilities necessary to monitor and maintain the environment.
 ###  8. Portfolio documentation
-     * Maintain architecture diagrams, deployment history, architectural decisions, troubleshooting documentation, and implementation notes in the GitHub repository.
-     * The final project will provide evidence of both technical implementation and the decision-making process behind the environment.
+  * Maintain architecture diagrams, deployment history, architectural decisions, troubleshooting documentation, and implementation notes in the GitHub repository.
+  * The final project will provide evidence of both technical implementation and the decision-making process behind the environment.
 ## 3. Target Roles
 * Azure Engineer/Administrator, Cloud Engineer/Administrator
 ## 4. Architecture Goals
