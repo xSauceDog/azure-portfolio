@@ -47,7 +47,7 @@
 ## 5. Azure Region
 * By default, resources will be deployed in West US 2 since that is the closest to me. Although if certain resources are cheaper in other regions, I may opt to deploy there.
 ## 6. Naming Convention
-* resource-type-project-environment-purpose-region
+* {resource-type}-{project}-{environment}-{purpose}-{region}
   * <project> = azp
   * <environment>
     * prod
