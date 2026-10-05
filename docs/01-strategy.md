@@ -72,8 +72,8 @@
   * HybridConnectivity
 * Project = AzurePortfolio
 * ManagedBy
-  1. Terraform
-  2. Portal
+  * Terraform
+  * Portal
 * CostCenter = Learning
 * Criticality
   * Low
