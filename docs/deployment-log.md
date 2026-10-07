@@ -12,5 +12,8 @@
 * Signed up for Microsoft 365 Business Premium (30-day trial licenses)
 * Assigned license to my admin account and normal user account
 * Updated roadmap doc
+* Created "decisions" folder and underlying documents
 * Created network diagram
+* Updated existing diagrams and uploaded .png files for viewing instead of the draw.io file
 * Updated DNS records on Porkbun to connect 365 tenant for mail
+* Completed the remaining documents in the "docs/" folder
