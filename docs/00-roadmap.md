@@ -10,7 +10,7 @@ Progress tracker. Detailed write-ups are in the linked docs, chronological work 
 | # | Phase | Status | AZ-104 domain | Doc |
 |---|---|---|---|---|
 | 1 | Strategy | ✅ | n/a | [01](01-strategy.md) |
-| 2 | Plan and design (diagrams, address plan) | 🔄 | n/a | diagrams/ |
+| 2 | Plan and design (diagrams, address plan) | 🔄 | n/a | [diagrams/](../diagrams/) |
 | 3 | Management groups and subscription structure | ⬜ | Identity and governance | [02](02-governance-identity.md) |
 | 4 | Hybrid identity (Entra Connect, groups, break-glass, Conditional Access) | ⬜ | Identity and governance | [02](02-governance-identity.md) |
 | 5 | RBAC, Policy, Tags, Budgets | 🔄 | Identity and governance | [02](02-governance-identity.md) |
