@@ -6,15 +6,15 @@ This file will provide an outline for the Azure environment project structure
 
 ## Phase 2 - Plan
 
-## Phase 3 - Management Groups
+## Phase 3 - RBAC + Policies + Tags + Budgets
 
-## Phase 4 - Subscriptions
+## Phase 4 - IaC/CI-CD phase (Terraform)
 
-## Phase 5 - RBAC + Policies + Tags + Budgets
+## Phase 5 - Hub/Spoke Networking
 
-## Phase 6 - Hub/Spoke Networking
+## Phase 6 - Private DNS + Private Endpoints
 
-## Phase 7 - Private DNS + Private Endpoints
+## Phase 7 - Hybrid Connectivity (Entra Connect)
 
 ## Phase 8 - Application Gateway + WAF
 
