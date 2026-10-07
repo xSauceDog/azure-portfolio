@@ -34,11 +34,11 @@ Plan, implement, and manage a personal Azure tenant that could be scaled up to m
 ### PaaS + IaaS
   * Prefer managed Azure services when they provide a practical advantage over self-managed infrastructure, while retaining selected IaaS workloads to demonstrate VM administration and infrastructure management skills.
 ### Security
-  * Resources will use private connectivity where practical, least-privilege access, network segmentation, NSGs, controlled internet access, and appropriate identiy and security controls.
+  * Resources will use private connectivity where practical, least-privilege access, network segmentation, NSGs, controlled internet access, and appropriate identify and security controls.
   * Security will be incorporated into the architecture rather than added after deployment.
 ### High availability and scalability
   * Design the production workload so that components can be scaled or made highly available where appropriate.
-  * The architecture will demonstrate awareness of availability and scalability without introducing unecessary cost or complexity.
+  * The architecture will demonstrate awareness of availability and scalability without introducing unnecessary cost or complexity.
 ### Governance
   * Establish a consistent Azure resource naming and tagging standard that supports resource identification, cost tracking, lifecycle management, automation, and future policy enforcement.
 ### Infrastructure as Code
@@ -80,5 +80,6 @@ Plan, implement, and manage a personal Azure tenant that could be scaled up to m
   * High
 ## 8. Cost Strategy
 * Free trial credits + cost controls
+* Budget alerts at 80% of budget threshold
 ## 9. Subscription Strategy
 * Azure free trial only allows for 1 subscription. I may opt to increase the subscription amounts once the free trial expires.
