@@ -10,7 +10,7 @@ Plan, implement, and manage a personal Azure tenant that could scale up to meet 
 | # | Objective | Outcome | Details |
 |---|---|---|---|
 | 1 | Production-style environment | A small but realistic Azure environment built on Microsoft-recommended architecture and governance practices, showing how a production workload is securely deployed, monitored, and maintained | [README](../README.md) |
-| 2 | Core Azure administration skills | Hands-on experience across the AZ-104 domains: identity and governance, storage, compute, networking, monitoring, backup and recovery | [02](02-governance-identity.md) to [05](05-operations-security.md) |
+| 2 | Core Azure administration skills | Hands-on experience across the AZ-104 domains: identity and governance, storage, compute, networking, monitoring, backup and recovery | [02](02-governance-identity.md), [03](03-networking.md), [04](04-workloads.md), [05](05-operations-security.md) |
 | 3 | Secure, structured networking | Hub-and-spoke design with segmentation, NSGs, private endpoints, private DNS, centralized connectivity, and controlled internet access | [03](03-networking.md) |
 | 4 | IaaS and PaaS | Managed services where they offer a practical advantage, plus selected IaaS workloads to demonstrate VM administration | [04](04-workloads.md) |
 | 5 | Governance and operational standards | Consistent resource organization, naming, tagging, RBAC, Azure Policy, cost controls, and lifecycle practices, designed to scale beyond a single-subscription lab | [02](02-governance-identity.md), [ADR-001](decisions/ADR-001-subscription-strategy.md) |
