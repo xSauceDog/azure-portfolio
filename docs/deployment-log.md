@@ -7,3 +7,9 @@
 * Granted global admin group the "contributor" role for the root subscription
 * Created resource groups
 * Strategy documentation
+
+## 6OCT2026
+* Signed up for Microsoft 365 Business Premium (30-day trial licenses)
+* Assigned license to my admin account and normal user account
+* Updated roadmap doc
+* Created network diagram
