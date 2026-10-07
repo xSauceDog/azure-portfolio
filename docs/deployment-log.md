@@ -13,3 +13,4 @@
 * Assigned license to my admin account and normal user account
 * Updated roadmap doc
 * Created network diagram
+* Updated DNS records on Porkbun to connect 365 tenant for mail
