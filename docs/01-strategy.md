@@ -1,85 +1,75 @@
-# Azure Portfolio - Strategy
-## 1. Project Purpose
-Plan, implement, and manage a personal Azure tenant that could be scaled up to meet the demands and requirement of an enterprise environment, while following industry standards and best practices as closely as possible.
-## 2. Project Objectives
-### 1. Build a production-style Azure environment
-  * Design and deploy a small but realistic Azure environment that follows Microsoft-recommended cloud architecture and governance practices.
-  * The environment will demonstrate how a production workload can be securely deployed, monitored, and maintained.
-###  2. Demonstrate core Azure administrative skills
-  * Build hands-on experience across the major AZ-104 domains, including identity and governance, storage, compute, networking, monitoring, and backup/recovery.
-###  3. Implement secure and structured networking
-  * Design a hub and spoke network architecture with appropriate segmentation, network security controls, private endpoints, private DNS, centralized connectivity, and controlled internet access.
-###  4. Demonstrate both IaaS and PaaS capabilities
-  * Use Azure-managed services where they provide a practical advantage while retaining selected IaaS workloads to demonstrate VM administration and infrastructure management skills.
-###  5. Implement cloud governance and operational standards
-  * Establish consistent resource organization, naming conventions, tagging, RBAC, Azure Policy, cost controls, and resource lifecycle practices.
-  * Governance will be designed so the environment could scale beyond the limitations of the initial single subscription lab.
-###  6. Implement infrastructure as code and automation
-  * Use Terraform, Azure CLI, and PowerShell where appropriate to automate resource deployment and administration.
-  * Infrastructure definitions and operational scripts will be maintained in version control to provide a repeatable and auditable deployment process.
-###  7. Develop monitoring, maintenance, and recovery capabilities
-  * Implement Azure Monitor, Log Analytics, alerts, backups, update management, and other operational capabilities necessary to monitor and maintain the environment.
-###  8. Portfolio documentation
-  * Maintain architecture diagrams, deployment history, architectural decisions, troubleshooting documentation, and implementation notes in the GitHub repository.
-  * The final project will provide evidence of both technical implementation and the decision-making process behind the environment.
-## 3. Target Roles
-* Azure Engineer/Administrator, Cloud Engineer/Administrator
-## 4. Architecture Goals
-### Production-oriented design
-  * The environment will follow realistic Azure architecture and governance practices while remaining appropriately sized for a personal learning and portfolio environment.
-  * The design will prioritize maintainability, security, and operational simplicity over unnecessary enterprise complexity.
-### Hub/spoke networking
-  * Separate platform, production, development, and sandbox workloads using appropriate VNets, subnets, resource groups, and network security controls.
-  * Shared connectivity services will be centralized where practical.
-### PaaS + IaaS
-  * Prefer managed Azure services when they provide a practical advantage over self-managed infrastructure, while retaining selected IaaS workloads to demonstrate VM administration and infrastructure management skills.
-### Security
-  * Resources will use private connectivity where practical, least-privilege access, network segmentation, NSGs, controlled internet access, and appropriate identify and security controls.
-  * Security will be incorporated into the architecture rather than added after deployment.
-### High availability and scalability
-  * Design the production workload so that components can be scaled or made highly available where appropriate.
-  * The architecture will demonstrate awareness of availability and scalability without introducing unnecessary cost or complexity.
-### Governance
-  * Establish a consistent Azure resource naming and tagging standard that supports resource identification, cost tracking, lifecycle management, automation, and future policy enforcement.
-### Infrastructure as Code
-  * Resources should ultimately be deployed and managed through Terraform where practical, with manual Azure Portal deployments used primarily for learning, troubleshooting, or resources where Terraform is intentionally not being used.
-## 5. Azure Region
-* By default, resources will be deployed in West US 2 since that is the closest to me. Although if certain resources are cheaper in other regions, I may opt to deploy there.
-## 6. Naming Convention
-* {resource-type}-{project}-{environment}-{purpose}-{region}
-  * {project} = azp
-  * {environment}
-    * prod
-    * dev
-    * sbx (sandbox)
-    * plt (platform/shared infrastructure)
-  * {region} = wus2 (West US 2)
-## 7. Tagging Convention
-* Environment
-  * Prod
-  * Dev
-  * Sandbox
-  * Platform 
-* Workload
-  * WebApp
-  * Database
-  * Storage
-  * Networking
-  * IaaS-Lab
-  * Monitoring
-  * Security
-  * HybridConnectivity
-* Project = AzurePortfolio
-* ManagedBy
-  * Terraform
-  * Portal
-* CostCenter = Learning
-* Criticality
-  * Low
-  * Medium
-  * High
-## 8. Cost Strategy
-* Free trial credits + cost controls
-* Budget alerts at 80% of budget threshold
-## 9. Subscription Strategy
-* Azure free trial only allows for 1 subscription. I may opt to increase the subscription amounts once the free trial expires.
+# 01 - Strategy
+
+**Roadmap phase:** 1 Strategy
+**Status:** ✅ Done · **Method:** n/a · **AZ-104 domain:** n/a
+
+## 1. Purpose
+Plan, implement, and manage a personal Azure tenant that could scale up to meet the demands of an enterprise environment, following industry standards and best practices as closely as practical.
+
+## 2. Objectives
+| # | Objective | Outcome | Details |
+|---|---|---|---|
+| 1 | Production-style environment | A small but realistic Azure environment built on Microsoft-recommended architecture and governance practices, showing how a production workload is securely deployed, monitored, and maintained | [README](../README.md) |
+| 2 | Core Azure administration skills | Hands-on experience across the AZ-104 domains: identity and governance, storage, compute, networking, monitoring, backup and recovery | [02](02-governance-identity.md) to [05](05-operations-security.md) |
+| 3 | Secure, structured networking | Hub-and-spoke design with segmentation, NSGs, private endpoints, private DNS, centralized connectivity, and controlled internet access | [03](03-networking.md) |
+| 4 | IaaS and PaaS | Managed services where they offer a practical advantage, plus selected IaaS workloads to demonstrate VM administration | [04](04-workloads.md) |
+| 5 | Governance and operational standards | Consistent resource organization, naming, tagging, RBAC, Azure Policy, cost controls, and lifecycle practices, designed to scale beyond a single-subscription lab | [02](02-governance-identity.md), [ADR-001](decisions/ADR-001-subscription-strategy.md) |
+| 6 | Infrastructure as code and automation | Terraform, Azure CLI, and PowerShell kept in version control for repeatable, auditable deployments | [ADR-004](decisions/ADR-004-portal-first-terraform-later.md), roadmap phase 16 |
+| 7 | Monitoring, maintenance, and recovery | Azure Monitor, Log Analytics, alerts, backups, and update management | [05](05-operations-security.md) |
+| 8 | Portfolio documentation | Architecture diagrams, deployment history, decision records, troubleshooting notes, and implementation notes in GitHub, showing both the implementation and the reasoning behind it | [decisions/](decisions/), [deployment-log](deployment-log.md) |
+
+## 3. Target roles
+Azure Engineer / Administrator · Cloud Engineer / Administrator
+
+## 4. Architecture principles
+| Principle | How it shows up |
+|---|---|
+| Production-oriented | Realistic Azure architecture and governance, sized for a personal learning environment. Favors maintainability, security, and operational simplicity over unnecessary enterprise complexity. |
+| Hub-and-spoke | Platform, production, development, and sandbox workloads are separated by VNet, subnet, resource group, and NSG. Shared connectivity is centralized in the hub where practical. |
+| PaaS plus IaaS | Prefer managed services for practical advantage. Keep selected IaaS workloads to demonstrate VM administration. |
+| Security by design | Private connectivity where practical, least-privilege access, segmentation, NSGs, controlled internet access, and identity and security controls built in from the start. |
+| Availability and scalability | Production components can be scaled or made highly available where appropriate, without adding unnecessary cost or complexity. |
+| Governance | A consistent naming and tagging standard supports identification, cost tracking, lifecycle management, automation, and future policy enforcement. |
+| Infrastructure as code | Resources are ultimately deployed through Terraform where practical. The Portal is used for learning, troubleshooting, and resources intentionally not in Terraform. |
+
+## 5. Azure region
+Default: **West US 2** (`wus2`), the closest region to me. I may deploy elsewhere if a resource is meaningfully cheaper there.
+
+## 6. Naming convention
+**Pattern:** `{resource-type}-{project}-{environment}-{purpose}-{region}`
+
+| Segment | Values |
+|---|---|
+| resource-type | Standard Cloud Adoption Framework abbreviation (`vnet`, `snet`, `nsg`, `vm`, `app`, `sql`, `log`, `rsv`) |
+| project | `azp` |
+| environment | `prod`, `dev`, `sbx` (sandbox), `plt` (platform / shared infrastructure) |
+| purpose | Short workload or function name (`hub`, `web`, `data`, `lab`) |
+| region | `wus2` (West US 2) |
+
+**Examples:** `vnet-azp-plt-hub-wus2` · `app-azp-prod-web-wus2` · `vm-azp-dev-lab-wus2`
+
+**Exceptions**
+| Resource | Rule | Example |
+|---|---|---|
+| Resource groups | No region suffix, because a resource group's location is only metadata | `rg-azp-plt-management` |
+| Storage accounts | No hyphens, lowercase only, 3-24 characters | `stazpproddatawus2` |
+
+## 7. Tagging convention
+| Tag | Values |
+|---|---|
+| Environment | Prod · Dev · Sandbox · Platform |
+| Workload | WebApp · Database · Storage · Networking · IaaS-Lab · Monitoring · Security · HybridConnectivity |
+| Project | AzurePortfolio |
+| ManagedBy | Terraform · Portal |
+| CostCenter | Learning |
+| Criticality | Low · Medium · High |
+
+Tag names and values are case-sensitive in practice for reporting, so use the capitalization above exactly. Tags are enforced through Azure Policy (see [02](02-governance-identity.md)).
+
+## 8. Cost strategy
+- Free trial credits plus cost controls.
+- Every resource is classified as **deployed**, **short-lived**, or **conceptual**. See [ADR-002](decisions/ADR-002-cost-tiers.md).
+- Budget alerts at 50%, 80%, and 100% of actual spend, plus 100% forecast. Details in [02](02-governance-identity.md).
+
+## 9. Subscription strategy
+The Azure free trial allows one subscription. The enterprise layout (platform, prod, dev, sandbox subscriptions under management groups) is documented as a target design. I may add subscriptions after the trial ends. Rationale: [ADR-001](decisions/ADR-001-subscription-strategy.md).
