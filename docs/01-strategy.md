@@ -32,7 +32,7 @@ Plan, implement, and manage a personal Azure tenant that could be scaled up to m
   * Separate platform, production, development, and sandbox workloads using appropriate VNets, subnets, resource groups, and network security controls.
   * Shared connectivity services will be centralized where practical.
 ### PaaS + IaaS
-  *Prefer managed Azure services when they provide a practical advantage over self-managed infrastructure, while retaining selected IaaS workloads to demonstrate VM administration and infrastructure management skills.
+  * Prefer managed Azure services when they provide a practical advantage over self-managed infrastructure, while retaining selected IaaS workloads to demonstrate VM administration and infrastructure management skills.
 ### Security
   * Resources will use private connectivity where practical, least-privilege access, network segmentation, NSGs, controlled internet access, and appropriate identiy and security controls.
   * Security will be incorporated into the architecture rather than added after deployment.
