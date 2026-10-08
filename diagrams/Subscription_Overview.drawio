@@ -1,0 +1,462 @@
+<mxfile host="app.diagrams.net">
+	<diagram name="Subscriptions" id="azp-sub-01">
+		<mxGraphModel
+			dx="1600"
+			dy="900"
+			grid="1"
+			gridSize="10"
+			guides="1"
+			tooltips="1"
+			connect="1"
+			arrows="1"
+			fold="1"
+			page="1"
+			pageScale="1"
+			pageWidth="1600"
+			pageHeight="1000"
+			math="0"
+			shadow="0"
+		>
+			<root>
+				<mxCell id="0" />
+				<mxCell id="1" parent="0" />
+				<mxCell
+					id="title"
+					value="azp – Management Groups, Subscriptions and Resource Groups"
+					style="text;html=1;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;fontFamily=Verdana;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="40" y="0" width="900" height="30" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="tenant"
+					value="Microsoft Entra ID tenant"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=11;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="620" y="40" width="360" height="40" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="root"
+					value="Tenant Root Management Group"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=11;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="620" y="110" width="360" height="40" as="geometry"
+				/></mxCell>
+
+				<mxCell
+					id="pl"
+					value="TODAY – Azure free trial (one subscription)"
+					style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#82b366;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=10;fontFamily=Verdana;fontStyle=1;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="40" y="210" width="740" height="640" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="mg-l"
+					value="mg-azp (Azure Portfolio)"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=11;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="230" y="255" width="360" height="40" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="sub-l"
+					value="sub-azp-portfolio (free trial)&lt;br&gt;Policy, RBAC and budget assigned here"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=11;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="230" y="330" width="360" height="50" as="geometry"
+				/></mxCell>
+
+				<mxCell
+					id="g-plt"
+					value="Platform (plt)"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=11;fontStyle=1;verticalAlign=top;fillColor=#ffffff;strokeColor=#82b366;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="60" y="430" width="220" height="130" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="rg-plt-1"
+					value="rg-azp-plt-management"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="75" y="470" width="190" height="34" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="rg-plt-2"
+					value="rg-azp-plt-network"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="75" y="515" width="190" height="34" as="geometry"
+				/></mxCell>
+
+				<mxCell
+					id="g-prod"
+					value="Production (prod)"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=11;fontStyle=1;verticalAlign=top;fillColor=#ffffff;strokeColor=#82b366;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="300" y="430" width="220" height="230" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="rg-prod-1"
+					value="rg-azp-prod-app"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="315" y="470" width="190" height="34" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="rg-prod-2"
+					value="rg-azp-prod-data"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="315" y="515" width="190" height="34" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="rg-prod-3"
+					value="rg-azp-prod-network"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="315" y="560" width="190" height="34" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="rg-prod-4"
+					value="rg-azp-prod-private-endpoints"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="315" y="605" width="190" height="34" as="geometry"
+				/></mxCell>
+
+				<mxCell
+					id="g-dev"
+					value="Development (dev)"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=11;fontStyle=1;verticalAlign=top;fillColor=#ffffff;strokeColor=#82b366;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="540" y="430" width="220" height="130" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="rg-dev-1"
+					value="rg-azp-dev-compute"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="555" y="470" width="190" height="34" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="rg-dev-2"
+					value="rg-azp-dev-network"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="555" y="515" width="190" height="34" as="geometry"
+				/></mxCell>
+
+				<mxCell
+					id="note-l"
+					value="Environments are separated today by resource group, VNet, tags and RBAC scope.&lt;br&gt;&lt;br&gt;Child management groups (platform, landingzones, sandbox) are free and optional.&lt;br&gt;&lt;br&gt;Extra subscriptions are blocked by the trial, so they appear only in the target design."
+					style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Verdana;fontSize=10;fontStyle=2;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="60" y="690" width="700" height="140" as="geometry"
+				/></mxCell>
+
+				<mxCell
+					id="pr"
+					value="TARGET – Enterprise design (conceptual)"
+					style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;strokeWidth=2;dashed=1;verticalAlign=top;align=left;spacingLeft=10;fontFamily=Verdana;fontStyle=1;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="820" y="210" width="740" height="640" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="mg-r"
+					value="mg-azp (Azure Portfolio)"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=11;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;fontColor=#333333;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="1010" y="255" width="360" height="40" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="mg-plt"
+					value="mg-azp-platform"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=11;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;fontColor=#333333;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="840" y="350" width="200" height="40" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="mg-lz"
+					value="mg-azp-landingzones"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=11;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;fontColor=#333333;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="1090" y="350" width="200" height="40" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="mg-sbx"
+					value="mg-azp-sandbox"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=11;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;fontColor=#333333;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="1340" y="350" width="200" height="40" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="sub-plt"
+					value="sub-azp-plt"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;fontColor=#333333;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="865" y="450" width="150" height="50" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="sub-prod"
+					value="sub-azp-prod"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;fontColor=#333333;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="1030" y="450" width="150" height="50" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="sub-dev"
+					value="sub-azp-dev"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;fontColor=#333333;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="1200" y="450" width="150" height="50" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="sub-sbx"
+					value="sub-azp-sbx"
+					style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;fontColor=#333333;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="1365" y="450" width="150" height="50" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="t-plt"
+					value="Hub VNet, Log Analytics, shared services"
+					style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=top;fontFamily=Verdana;fontSize=10;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="865" y="515" width="150" height="60" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="t-prod"
+					value="App, data, network, private endpoints"
+					style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=top;fontFamily=Verdana;fontSize=10;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="1030" y="515" width="150" height="60" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="t-dev"
+					value="Compute, network"
+					style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=top;fontFamily=Verdana;fontSize=10;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="1200" y="515" width="150" height="60" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="t-sbx"
+					value="Disposable experiments, tight budget"
+					style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=top;fontFamily=Verdana;fontSize=10;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="1365" y="515" width="150" height="60" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="note-r"
+					value="Policy and RBAC assigned at mg-azp inherit to every subscription below.&lt;br&gt;&lt;br&gt;Landing zones: one subscription per environment for blast-radius, RBAC and cost isolation.&lt;br&gt;&lt;br&gt;Sandbox: relaxed policy, hard budget cap."
+					style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Verdana;fontSize=10;fontStyle=2;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="840" y="650" width="700" height="150" as="geometry"
+				/></mxCell>
+
+				<mxCell
+					id="lg1"
+					value=""
+					style="rounded=1;html=1;fillColor=#d5e8d4;strokeColor=#82b366;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="620" y="880" width="30" height="20" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="lg1t"
+					value="Deployed"
+					style="text;html=1;align=left;verticalAlign=middle;fontFamily=Verdana;fontSize=10;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="660" y="875" width="100" height="30" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="lg2"
+					value=""
+					style="rounded=1;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="790" y="880" width="30" height="20" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="lg2t"
+					value="Conceptual only"
+					style="text;html=1;align=left;verticalAlign=middle;fontFamily=Verdana;fontSize=10;"
+					vertex="1"
+					parent="1"
+					><mxGeometry x="830" y="875" width="140" height="30" as="geometry"
+				/></mxCell>
+
+				<mxCell
+					id="e1"
+					value=""
+					style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;"
+					edge="1"
+					parent="1"
+					source="tenant"
+					target="root"
+					><mxGeometry relative="1" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="e2"
+					value=""
+					style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;"
+					edge="1"
+					parent="1"
+					source="root"
+					target="mg-l"
+					><mxGeometry relative="1" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="e3"
+					value=""
+					style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#666666;"
+					edge="1"
+					parent="1"
+					source="root"
+					target="mg-r"
+					><mxGeometry relative="1" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="e4"
+					value=""
+					style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;"
+					edge="1"
+					parent="1"
+					source="mg-l"
+					target="sub-l"
+					><mxGeometry relative="1" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="e5"
+					value=""
+					style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;"
+					edge="1"
+					parent="1"
+					source="sub-l"
+					target="g-plt"
+					><mxGeometry relative="1" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="e6"
+					value=""
+					style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;"
+					edge="1"
+					parent="1"
+					source="sub-l"
+					target="g-prod"
+					><mxGeometry relative="1" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="e7"
+					value=""
+					style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;"
+					edge="1"
+					parent="1"
+					source="sub-l"
+					target="g-dev"
+					><mxGeometry relative="1" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="e8"
+					value=""
+					style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#666666;"
+					edge="1"
+					parent="1"
+					source="mg-r"
+					target="mg-plt"
+					><mxGeometry relative="1" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="e9"
+					value=""
+					style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#666666;"
+					edge="1"
+					parent="1"
+					source="mg-r"
+					target="mg-lz"
+					><mxGeometry relative="1" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="e10"
+					value=""
+					style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#666666;"
+					edge="1"
+					parent="1"
+					source="mg-r"
+					target="mg-sbx"
+					><mxGeometry relative="1" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="e11"
+					value=""
+					style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#666666;"
+					edge="1"
+					parent="1"
+					source="mg-plt"
+					target="sub-plt"
+					><mxGeometry relative="1" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="e12"
+					value=""
+					style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#666666;"
+					edge="1"
+					parent="1"
+					source="mg-lz"
+					target="sub-prod"
+					><mxGeometry relative="1" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="e13"
+					value=""
+					style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#666666;"
+					edge="1"
+					parent="1"
+					source="mg-lz"
+					target="sub-dev"
+					><mxGeometry relative="1" as="geometry"
+				/></mxCell>
+				<mxCell
+					id="e14"
+					value=""
+					style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#666666;"
+					edge="1"
+					parent="1"
+					source="mg-sbx"
+					target="sub-sbx"
+					><mxGeometry relative="1" as="geometry"
+				/></mxCell>
+			</root>
+		</mxGraphModel>
+	</diagram>
+</mxfile>
