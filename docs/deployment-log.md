@@ -1,8 +1,6 @@
 # Deployment Log
 
 ## 5OCT2026
-
-### Completed
 * Created global admin security group and added my 2-letter admin acccount
 * Granted global admin group the "contributor" role for the root subscription
 * Created resource groups
@@ -25,3 +23,4 @@
 * Created the sg-azp-entra-global-admins and assigned it the global admin role
 * Assigned 2-leter admin to the group
 * Uploaded higher resolution png images for the architecture diagrams
+* Created the sg-azp-dev-contributors group and sg-azp-readers security groups
