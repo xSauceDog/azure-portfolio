@@ -18,7 +18,10 @@
 * Updated DNS records on Porkbun to connect 365 tenant for mail
 * Completed the remaining documents in the "docs/" folder
 
-## 7OCT2026
-* Updated the security group name for the admins group, so it won't be confused with the global admin role
-* Uploaded higher resolution png images for the architecture diagrams
+## 7OCT2026 
 * Created management group and nested the existing subscription under it
+* Renamed existing global admin security group to sg-azp-azure-admins and assigned it the owner role at the management group level
+* Assigned my 2-letter admin account to the group
+* Created the sg-azp-entra-global-admins and assigned it the global admin role
+* Assigned 2-leter admin to the group
+* Uploaded higher resolution png images for the architecture diagrams
