@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="On-Prem" id="azp-onprem-01">
+    <mxGraphModel dx="1229" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="750" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;fontFamily=Verdana;" value="azp – On-Prem, Hybrid Identity and Connectivity" vertex="1">
+          <mxGeometry height="30" width="900" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="onp" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=bottom;fontFamily=Verdana;fontStyle=1;" value="On-Prem / Home Lab · LAN 192.168.1.0/24 (placeholder)" vertex="1">
+          <mxGeometry height="520" width="420" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;align=left;spacingLeft=48;fillColor=#d5e8d4;strokeColor=#82b366;" value="LAB-DC01&lt;br&gt;Windows Server 2022&lt;br&gt;AD DS + DNS&lt;br&gt;corp.kesling.cloud" vertex="1">
+          <mxGeometry height="100" width="170" x="70" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dc-icon" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/active_directory.svg;" value="" vertex="1">
+          <mxGeometry height="34" width="40" x="78" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ecs" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;align=left;spacingLeft=48;fillColor=#d5e8d4;strokeColor=#82b366;" value="Entra Connect Sync&lt;br&gt;one-way:&lt;br&gt;AD → Entra ID" vertex="1">
+          <mxGeometry height="100" width="170" x="270" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ecs-icon" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Entra_Connect.svg;" value="" vertex="1">
+          <mxGeometry height="37.8" width="40" x="278" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="conn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;fontColor=#333333;" value="Intune Connector for AD&lt;br&gt;(planned – Autopilot hybrid join)" vertex="1">
+          <mxGeometry height="70" width="170" x="70" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="vm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" value="Admin workstation VM&lt;br&gt;(Hyper-V · RSAT)" vertex="1">
+          <mxGeometry height="70" width="170" x="270" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="router" parent="1" style="html=1;strokeWidth=1;shadow=0;dashed=0;shape=mxgraph.ios7.misc.vpn;fillColor=#007AFF;strokeColor=none;buttonText=;strokeColor2=#222222;fontColor=#222222;fontSize=8;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="70" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="router-txt" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Verdana;fontSize=10;" value="Home router / VPN device&lt;br&gt;S2S IPsec/IKEv2 (when gateway is up)" vertex="1">
+          <mxGeometry height="40" width="380" x="60" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="net" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;dashed=1;verticalAlign=top;fontFamily=Verdana;fontStyle=1;fontColor=#666666;" value="Public Internet" vertex="1">
+          <mxGeometry height="520" width="180" x="490" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;fontFamily=Verdana;fontStyle=1;" value="Microsoft cloud" vertex="1">
+          <mxGeometry height="520" width="520" x="700" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="entra" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;align=left;spacingLeft=48;fillColor=#d5e8d4;strokeColor=#82b366;" value="Microsoft Entra ID&lt;br&gt;Synced + cloud identities&lt;br&gt;Conditional Access (P1)&lt;br&gt;Security groups" vertex="1">
+          <mxGeometry height="100" width="220" x="730" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="entra-icon" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;" value="" vertex="1">
+          <mxGeometry height="36.6" width="40" x="738" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="intune" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" value="Microsoft Intune&lt;br&gt;Compliance, configuration and app deployment&lt;br&gt;(M365 Business Premium trial)" vertex="1">
+          <mxGeometry height="100" width="210" x="980" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hub" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;verticalAlign=top;fontFamily=Verdana;fontStyle=1;fontSize=11;" value="vnet-azp-plt-hub-wus2 · 10.0.0.0/24" vertex="1">
+          <mxGeometry height="190" width="460" x="730" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="gw" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" value="GatewaySubnet 10.0.0.0/27&lt;br&gt;VPN Gateway&lt;br&gt;(short-lived)" vertex="1">
+          <mxGeometry height="100" width="190" x="760" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="spokes" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" value="Peered spoke VNets&lt;br&gt;prod · dev&lt;br&gt;(see Network diagram)" vertex="1">
+          <mxGeometry height="100" width="190" x="980" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="lg1" parent="1" style="rounded=1;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="20" width="30" x="40" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="lg1t" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Verdana;fontSize=10;" value="Deployed / in place" vertex="1">
+          <mxGeometry height="30" width="190" x="80" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="lg2" parent="1" style="rounded=1;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" value="" vertex="1">
+          <mxGeometry height="20" width="30" x="300" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="lg2t" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Verdana;fontSize=10;" value="Short-lived (deploy, verify, destroy)" vertex="1">
+          <mxGeometry height="30" width="240" x="340" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="lg3" parent="1" style="rounded=1;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" value="" vertex="1">
+          <mxGeometry height="20" width="30" x="600" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="lg3t" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Verdana;fontSize=10;" value="Planned / conceptual" vertex="1">
+          <mxGeometry height="30" width="200" x="640" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="dc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="ecs" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="ecs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=Verdana;fontSize=10;" target="entra" value="HTTPS 443 · one-way sync">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="vm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=Verdana;fontSize=10;" target="intune" value="Hybrid join / MDM enrollment (HTTPS)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="router" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#d79b00;strokeWidth=2;startArrow=classic;endArrow=classic;fontFamily=Verdana;fontSize=10;" target="gw" value="S2S VPN · IPsec/IKEv2 (encrypted tunnel)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
