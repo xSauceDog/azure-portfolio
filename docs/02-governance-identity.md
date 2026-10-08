@@ -14,7 +14,8 @@ Today: `Tenant Root` → `mg-azp` → `sub-azp-portfolio`. Target design is in `
 ### 2.2 Admin model
 | Account | Purpose | Notes |
 |---|---|---|
-| Daily admin account | Day-to-day administration | Member of the Azure admin group |
+| tk-admin | Day-to-day administration | "Owner" role assigned at the management group level |
+| tk-admin | Day-to-day administration | "Global Admin" role assigned in Entra  |
 | Break-glass account | Emergency access only | Cloud-only, strong password stored offline, excluded from Conditional Access, sign-in alert (phase 13) |
 
 Open item: Microsoft recommends two break-glass accounts. Document the decision to keep one.
@@ -23,7 +24,8 @@ Note: Entra *Global Administrator* is a separate role from Azure RBAC *Owner*. N
 ### 2.3 Groups and RBAC
 | Group | Role | Scope |
 |---|---|---|
-| sg-azp-azure-admins | Owner | Subscription |
+| sg-azp-azure-admins | Owner | Management group |
+| sg-azp-entra-global-admins | Global Admin | Entra |
 | sg-azp-readers | Reader | Subscription |
 | sg-azp-dev-contributors | Contributor | Dev resource groups |
 
