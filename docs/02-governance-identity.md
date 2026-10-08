@@ -48,8 +48,8 @@ See [01-strategy](01-strategy.md). Exception: resource group names omit the regi
 ## 3. Implementation checklist
 - [x] Admin security group created and daily admin added
 - [x] Resource groups created
-- [ ] Change admin group role from Contributor to Owner
-- [ ] Create `mg-azp` and move the subscription under it
+- [x] Change admin group role from Contributor to Owner
+- [x] Create `mg-azp` and move the subscription under it
 - [ ] Configure Entra Connect sync
 - [ ] Conditional Access: MFA for admins (break-glass excluded)
 - [ ] Create RBAC groups and assignments
