@@ -45,7 +45,7 @@ See [01-strategy](01-strategy.md). Exception: resource group names omit the regi
 ### 2.6 Budgets
 | Budget | Amount | Alerts |
 |---|---|---|
-| Subscription monthly | [fill in] | 50%, 80%, 100% actual; 100% forecast |
+| Subscription monthly | $20 | 50%, 80%, 100% actual; 100% forecast |
 
 ## 3. Implementation checklist
 - [x] Admin security group created and daily admin added
