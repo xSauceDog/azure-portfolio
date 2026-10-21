@@ -24,3 +24,9 @@
 * Assigned 2-leter admin to the group
 * Uploaded higher resolution png images for the architecture diagrams
 * Created the sg-azp-dev-contributors group and sg-azp-readers security groups
+
+## 21OCT2026
+* Assigned the "reader" role to the sg-azp-readers security group at the subscription level
+* Assigned the "contributor" role to the sg-azp-dev-contributors security group, on both of the "dev" resource groups
+* Created a policy at the subscription level to require the tag "Environment" on all resource groups
+* Created a policy for each "prod" resource group, prohibiting the NIC containing a public IP
