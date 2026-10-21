@@ -53,10 +53,10 @@ See [01-strategy](01-strategy.md). Exception: resource group names omit the regi
 - [x] Change admin group role from Contributor to Owner
 - [x] Create `mg-azp` and move the subscription under it
 - [ ] Configure Entra Connect sync
-- [ ] Conditional Access: MFA for admins (break-glass excluded)
-- [ ] Create RBAC groups and assignments
-- [ ] Assign policies in Audit mode, review, then enforce
-- [ ] Create budget and alerts
+- [x] Conditional Access: MFA for admins (break-glass excluded)
+- [x] Create RBAC groups and assignments
+- [x] Assign policies in Audit mode, review, then enforce
+- [x] Create budget and alerts
 
 ## 4. Verification
 - `az role assignment list --scope <subscription-scope> -o table`
