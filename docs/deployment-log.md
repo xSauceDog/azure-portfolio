@@ -35,4 +35,4 @@
 * Created the hub and spoke virtual networks, as well as the corresponding subnets
 * Created an NSG for each subnet and assigned to the corresponding subnet
 * Created peering links between the hub VNet and both of the spoke VNets
-* Created private DNS zones and linked them to both the hub and prod VNets
+* Created private DNS zones and linked them to both the hub and spoke VNets
