@@ -30,3 +30,9 @@
 * Assigned the "contributor" role to the sg-azp-dev-contributors security group, on both of the "dev" resource groups
 * Created a policy at the subscription level to require the tag "Environment" on all resource groups
 * Created a policy for each "prod" resource group, prohibiting the NIC containing a public IP
+
+## 22OCT2026
+* Created the hub and spoke virtual networks, as well as the corresponding subnets
+* Created an NSG for each subnet and assigned to the corresponding subnet
+* Created peering links between the hub VNet and both of the spoke VNets
+* Created private DNS zones and linked them to both the hub and prod VNets
