@@ -28,10 +28,10 @@ Segmented hub-and-spoke network with private access to PaaS and a documented pat
 - **Application Gateway WAF:** short-lived. WAF policy in prevention mode, backend is the App Service private endpoint.
 
 ## 4. Implementation checklist
-- [ ] Create hub and spoke VNets and subnets
-- [ ] Create NSGs and associate
-- [ ] Peer hub to spokes
-- [ ] Create private DNS zones and VNet links
+- [x] Create hub and spoke VNets and subnets
+- [x] Create NSGs and associate
+- [x] Peer hub to spokes
+- [x] Create private DNS zones and VNet links
 - [ ] Deploy VPN gateway and S2S connection (short-lived), capture evidence, delete
 - [ ] Deploy Application Gateway WAF (short-lived), test, capture evidence, delete
 
