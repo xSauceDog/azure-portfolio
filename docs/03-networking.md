@@ -23,7 +23,7 @@ Segmented hub-and-spoke network with private access to PaaS and a documented pat
 - **Peering:** hub to each spoke. Enable gateway transit on the hub and use-remote-gateways on spokes once the VPN gateway exists. Spokes are not peered to each other, so dev and prod stay isolated (no firewall to route between them).
 - **NSGs:** one per workload subnet, default-deny inbound, explicit allows only. No NSG on GatewaySubnet.
 - **Hybrid connectivity:** site-to-site VPN (local network gateway, VPN gateway, connection). Confirm the home router supports route-based IPsec/IKEv2. If not, document S2S as conceptual and use P2S or a router-based VPN for access.
-- **Private DNS:** `privatelink.azurewebsites.net`, `privatelink.database.windows.net`, `privatelink.blob.core.windows.net`, linked to hub and prod. On-prem resolution: [ADR-003](decisions/ADR-003-private-endpoint-dns.md).
+- **Private DNS:** `privatelink.azurewebsites.net`, `privatelink.database.windows.net`, `privatelink.blob.core.windows.net`, linked to hub, dev, and prod. On-prem resolution: [ADR-003](decisions/ADR-003-private-endpoint-dns.md).
 - **Private endpoints:** web app, SQL, blob. Public network access disabled on SQL and Storage.
 - **Application Gateway WAF:** short-lived. WAF policy in prevention mode, backend is the App Service private endpoint.
 
