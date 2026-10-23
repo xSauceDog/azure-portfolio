@@ -36,3 +36,8 @@
 * Created an NSG for each subnet and assigned to the corresponding subnet
 * Created peering links between the hub VNet and both of the spoke VNets
 * Created private DNS zones and linked them to both the hub and spoke VNets
+
+## 23OCT2026
+* Deployed storage account and blob storage
+* Deployed SQL server and database
+* Upgraded subscription to pay-as-you-go
