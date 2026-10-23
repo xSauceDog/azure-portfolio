@@ -16,11 +16,11 @@ Progress tracker. Detailed write-ups are in the linked docs, chronological work 
 | 5 | RBAC, Policy, Tags, Budgets | ✅ | Identity and governance | [02](02-governance-identity.md) |
 | 6 | Hub-and-spoke networking | ✅ | Networking | [03](03-networking.md) |
 | 7 | Hybrid connectivity (S2S VPN, hybrid DNS) | ⏱ | Networking | [03](03-networking.md) |
-| 8 | Private DNS and private endpoints | 🔄 | Networking | [03](03-networking.md) |
+| 8 | Private DNS and private endpoints | ✅ | Networking | [03](03-networking.md) |
 | 9 | Application Gateway and WAF | ⏱ | Networking | [03](03-networking.md) |
 | 10 | App Service | ⬜ | Compute | [04](04-workloads.md) |
-| 11 | SQL and Storage | ⬜ | Storage | [04](04-workloads.md) |
-| 12 | Dev VM (IaaS) | ⬜ | Compute | [04](04-workloads.md) |
+| 11 | SQL and Storage | ✅ | Storage | [04](04-workloads.md) |
+| 12 | Dev VM (IaaS) | 🔄 | Compute | [04](04-workloads.md) |
 | 13 | Monitoring and alerts | 🔄 | Monitoring and maintenance | [05](05-operations-security.md) |
 | 14 | Backup and recovery | ⬜ | Monitoring and maintenance | [05](05-operations-security.md) |
 | 15 | Security hardening | ⬜ | Cross-cutting | [05](05-operations-security.md) |
