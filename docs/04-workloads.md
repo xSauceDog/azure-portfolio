@@ -18,8 +18,8 @@ Open item: choose a simple sample app that reads from SQL and writes to blob, so
 Dev VM access without Bastion: reach it over the VPN while the gateway is up, or from the admin side via a temporary approach documented in a runbook.
 
 ## 3. Implementation checklist
-- [ ] Storage account with private endpoint
-- [ ] SQL server and database with private endpoint
+- [x] Storage account with private endpoint
+- [x] SQL server and database with private endpoint
 - [ ] App Service plan, web app, VNet integration, managed identity access to SQL and Storage
 - [ ] Dev VM, NSG, auto-shutdown
 - [ ] Sample app deployed and verified end to end
