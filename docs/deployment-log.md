@@ -43,3 +43,9 @@
 * Deployed SQL server, database, and private endpoint
 * Upgraded subscription to pay-as-you-go
 * Deployed Linux VM, with auto-shutdown at 7PM daily enabled
+
+## 26OCT2026
+* Fixed minor discrepancies in the diagrams and docs
+* Created policy for "allowed locations" at the subscription scrope
+* Created policy for "inherit a tag from the resource group if missing"
+* Created the "Project: AzurePortfolio" tag and assigned it the same "inherit" policy as above
