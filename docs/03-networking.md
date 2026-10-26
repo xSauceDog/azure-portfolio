@@ -1,7 +1,7 @@
 # 03 - Networking
 
 **Roadmap phases:** 6 Hub-and-spoke · 7 Hybrid connectivity · 8 Private DNS and private endpoints · 9 Application Gateway and WAF
-**Status:** ⬜ Not started · **Method:** Portal · **AZ-104 domain:** Networking
+**Status:** 🔄 In progress · **Method:** Portal · **AZ-104 domain:** Networking
 
 ## 1. Goals
 Segmented hub-and-spoke network with private access to PaaS and a documented path to on-prem. Diagram: `diagrams/Network.drawio`.
