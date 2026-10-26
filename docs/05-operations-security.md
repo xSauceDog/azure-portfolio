@@ -1,7 +1,7 @@
 # 05 - Operations and Security
 
 **Roadmap phases:** 13 Monitoring and alerts · 14 Backup and recovery · 15 Security hardening
-**Status:** ⬜ Not started · **Method:** Portal · **AZ-104 domain:** Monitoring and maintenance, cross-cutting
+**Status:** 🔄 In progress · **Method:** Portal · **AZ-104 domain:** Monitoring and maintenance, cross-cutting
 
 ## 1. Goals
 Observe, protect and recover the environment, and show a hardening pass with evidence.
