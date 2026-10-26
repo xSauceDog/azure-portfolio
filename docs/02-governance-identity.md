@@ -37,7 +37,7 @@ Open item: cloud-only versus Entra Connect-synced groups for Azure RBAC. Cloud-o
 | Allowed locations | Deny | Subscription | Cost and region control |
 | Require tags on resource groups | Deny | Subscription | Governance and cost tracking |
 | Inherit tag from resource group | Modify | Subscription | Consistent tagging |
-| Network interfaces should not have public IPs | Deny | Prod resource groups | Private-by-default |
+| Network interfaces should not have public IPs | Deny | Subscription | Private-by-default |
 
 ### 2.5 Naming and tags
 See [01-strategy](01-strategy.md). Exception: resource group names omit the region suffix because a resource group's location is only metadata.
