@@ -68,8 +68,10 @@ Tag names and values are case-sensitive in practice for reporting, so use the ca
 
 ## 8. Cost strategy
 - Free trial credits plus cost controls.
+- *Subscription has now been upgraded to pay-as-you-go due to restrictions with certain resources I needed to deploy (VM, SQL server, etc.).*
 - Every resource is classified as **deployed**, **short-lived**, or **conceptual**. See [ADR-002](decisions/ADR-002-cost-tiers.md).
 - Budget alerts at 50%, 80%, and 100% of actual spend, plus 100% forecast. Details in [02](02-governance-identity.md).
 
 ## 9. Subscription strategy
 The Azure free trial allows one subscription. The enterprise layout (platform, prod, dev, sandbox subscriptions under management groups) is documented as a target design. I may add subscriptions after the trial ends. Rationale: [ADR-001](decisions/ADR-001-subscription-strategy.md).
+*Since the subscription has now been upgraded, I will plan on migrating to the indented architecture of multiple subscriptions.*
