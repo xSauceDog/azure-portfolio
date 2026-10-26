@@ -49,3 +49,4 @@
 * Created policy for "allowed locations" at the subscription scrope
 * Created policy for "inherit a tag from the resource group if missing"
 * Created the "Project: AzurePortfolio" tag and assigned it the same "inherit" policy as above
+* Assigned the "Virtual Machine Administrator Login" role to the Azure admins group.
