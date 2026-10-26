@@ -21,7 +21,7 @@ Dev VM access without Bastion: reach it over the VPN while the gateway is up, or
 - [x] Storage account with private endpoint
 - [x] SQL server and database with private endpoint
 - [ ] App Service plan, web app, VNet integration, managed identity access to SQL and Storage
-- [ ] Dev VM, NSG, auto-shutdown
+- [x] Dev VM, NSG, auto-shutdown
 - [ ] Sample app deployed and verified end to end
 
 ## 4. Verification
