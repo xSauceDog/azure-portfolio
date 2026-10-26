@@ -24,6 +24,7 @@
 * Assigned 2-leter admin to the group
 * Uploaded higher resolution png images for the architecture diagrams
 * Created the sg-azp-dev-contributors group and sg-azp-readers security groups
+* Created basic budget alerts for the subscription
 
 ## 21OCT2026
 * Assigned the "reader" role to the sg-azp-readers security group at the subscription level
@@ -38,7 +39,7 @@
 * Created private DNS zones and linked them to both the hub and spoke VNets
 
 ## 23OCT2026
-* Deployed storage account and blob storage
-* Deployed SQL server and database
+* Deployed storage account, blob storage, and private endpoint
+* Deployed SQL server, database, and private endpoint
 * Upgraded subscription to pay-as-you-go
 * Deployed Linux VM, with auto-shutdown at 7PM daily enabled
