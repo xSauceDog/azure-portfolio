@@ -12,7 +12,7 @@ A small but realistic application tier with private data services, plus one IaaS
 | App Service plan and web app | app-azp-prod-web-wus2 | Basic tier or higher (needed for VNet integration and private endpoints), managed identity, HTTPS only, VNet integration to snet-web |
 | SQL server and database | sql-azp-prod-data-wus2 | Entra admin set, public network access disabled, private endpoint |
 | Storage account | stazpproddatawus2 | LRS, TLS 1.2 minimum, public access disabled, blob soft delete, private endpoint |
-| Linux VM | vm-azp-dev-lab-wus2 | B-series, no public IP, SSH keys, auto-shutdown, managed disk |
+| Linux VM | vm-azp-dev-lab-wus2 | D-series, no public IP, SSH keys, auto-shutdown, managed disk |
 
 Open item: choose a simple sample app that reads from SQL and writes to blob, so the data path is demonstrable.
 Dev VM access without Bastion: reach it over the VPN while the gateway is up, or from the admin side via a temporary approach documented in a runbook.
