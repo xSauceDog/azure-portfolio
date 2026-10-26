@@ -1,7 +1,7 @@
 # 04 - Workloads
 
 **Roadmap phases:** 10 App Service · 11 SQL and Storage · 12 Dev VM
-**Status:** ⬜ Not started · **Method:** Portal · **AZ-104 domains:** Compute, Storage
+**Status:** 🔄 In progress · **Method:** Portal · **AZ-104 domains:** Compute, Storage
 
 ## 1. Goals
 A small but realistic application tier with private data services, plus one IaaS VM to demonstrate VM administration.
