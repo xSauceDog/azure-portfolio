@@ -46,6 +46,8 @@ Naming: `{resource-type}-{project}-{environment}-{purpose}-{region}`, for exampl
 
 Azure free trial credits, budget alerts, and a short-lived deployment pattern for expensive services such as VPN Gateway and Application Gateway. Azure Firewall, Bastion and DNS Private Resolver are documented but not deployed.
 
+Subscription has now been upgraded to pay-as-you-go due to limitations with deploying certain resources (i.e. VM sizing, SQL database).
+
 ## About
 
 Built by TJ Kesling · linkedin.com/in/tj-kesling · Targeting Azure engineer / cloud administrator roles.
