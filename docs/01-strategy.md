@@ -61,8 +61,6 @@ Default: **West US 2** (`wus2`), the closest region to me. I may deploy elsewher
 | Workload | WebApp · Database · Storage · Networking · IaaS-Lab · Monitoring · Security · HybridConnectivity |
 | Project | AzurePortfolio |
 | ManagedBy | Terraform · Portal |
-| CostCenter | Learning |
-| Criticality | Low · Medium · High |
 
 Tag names and values are case-sensitive in practice for reporting, so use the capitalization above exactly. Tags are enforced through Azure Policy (see [02](02-governance-identity.md)).
 
