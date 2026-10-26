@@ -41,3 +41,4 @@
 * Deployed storage account and blob storage
 * Deployed SQL server and database
 * Upgraded subscription to pay-as-you-go
+* Deployed Linux VM, with auto-shutdown at 7PM daily enabled
