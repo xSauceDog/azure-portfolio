@@ -5,7 +5,7 @@ Progress tracker. Detailed write-ups are in the linked docs, chronological work 
 **Status:** ✅ Done · 🔄 In progress · ⬜ Not started · ⏱ Short-lived (deploy, verify, destroy) · 📐 Conceptual only
 **Method:** Phases 3-15 are built in the Portal first, then rebuilt in Terraform in phase 16.
 
-*Last updated: 2026-10-07*
+*Last updated: 2026-10-26*
 
 | # | Phase | Status | AZ-104 domain | Doc |
 |---|---|---|---|---|
