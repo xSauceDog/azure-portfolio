@@ -14,8 +14,8 @@ Today: `Tenant Root` → `mg-azp` → `sub-azp-portfolio`. Target design is in `
 ### 2.2 Admin model
 | Account | Purpose | Notes |
 |---|---|---|
-| tk-admin | Day-to-day administration | "Owner" role assigned at the management group level |
-| tk-admin | Day-to-day administration | "Global Admin" role assigned in Entra  |
+| sg-azp-azure-admins | Day-to-day administration | "Owner" role assigned at the management group level |
+| sg-azp-entra-global-admins | Day-to-day administration | "Global Admin" role assigned in Entra  |
 | Break-glass account | Emergency access only | Cloud-only, strong password stored offline, excluded from Conditional Access, sign-in alert (phase 13) |
 
 Open item: Microsoft recommends two break-glass accounts. Document the decision to keep one.
